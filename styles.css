@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    border-radius: 20px;
+    height: max-content;
+}
+.container {
+    min-height: 80px;
+    height: max-content;
+    width: 500px;
+    padding: 15px
+}
+.text {
+    min-height: 50px;
+    font-size: 18px;
+}

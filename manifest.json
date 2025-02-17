@@ -1,5 +1,22 @@
 {
     "description": "Get word and phrase meanings on the go",
-    "name": "Word Plus"
+    "name": "Word Plus",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Word +"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "scripting"
+    ]
 
 }
