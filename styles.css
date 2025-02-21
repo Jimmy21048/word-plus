@@ -15,5 +15,9 @@ body {
 }
 #text {
     min-height: 50px;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#text p {
+    margin-top: 10px;
 }
