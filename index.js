@@ -29,7 +29,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, (tabs)  => {
             })
             
         } else {
-            text.innerHTML = "Error!, please close and reopen chrome"
+            text.innerHTML = "Error!, please restart chrome"
         }
     })
 })
