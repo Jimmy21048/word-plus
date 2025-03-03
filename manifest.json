@@ -1,0 +1,29 @@
+{
+    "description": "Get word and phrase meanings on the go",
+    "name": "Word Plus",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16" : "images/word16.png",
+        "32" : "images/word32.png",
+        "48" : "images/word48.png",
+        "128" : "images/word128.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Word +"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "scripting"
+    ],
+    "content_scripts" : [{
+        "js" : ["scripts/content.js"],
+        "matches" : ["<all_urls>"]
+    }]
+
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    border-radius: 20px;
+    height: max-content;
+}
+.container {
+    min-height: 80px;
+    height: max-content;
+    width: 500px;
+    padding: 15px
+}
+#text {
+    min-height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#text p {
+    margin-top: 10px;
+}
